@@ -89,20 +89,119 @@ function App() {
         <div className="empty"></div>
         <div className="page4">
           <img className="spoky" src="https://s3-alpha-sig.figma.com/img/9b79/b9cf/49bac0ef10dfa8c6bf50bec13d962a3b?Expires=1668384000&Signature=TGAWpVOJGqQsn~85Tu6EDEUqwbbBLxyqL17Uns8C6sZSms9LGxJxWNNjhB3RvO~Q9U0gRIKkxIaEA7gg7DxzwSOwowEJXDbIYC3SVPHXlGJ8C3Eyy9vU0XPDHQVUpLqIqPkPEPzMnNdOcpEyoeZriWOq4M1SfDIgd3D4IWJOuMFURP8wyU9~9WjDCV06qWXMW3lehaFw9O3mwe4XfzjQzmkuh1kIFP2oHeanmPRXxgWvqDlIEpMlfS15I4e5hCllDoe73OAL6J54JA5hPWddgyfBQlJZcGREWzc9SSZWHuJUYEOGTp8~W1XrJrig6hY2ElxvySaaXq76AUDrB0WefQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"></img>
+          <div className="write">
           <h1>Scheduling that actually works</h1>
           <br></br>
-          <div className="write">Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place.</div>
+          Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place.</div>
         </div>
-        <div className="page5">
-          <div className="tex">
-            <h1 className="people">People say about us</h1>
-            <Card variant="outlined">
-            </Card>
+        <div class="ø"></div>
+        <div className="aboutus">
+            <div className="aboutuscontainer">
+              <div className="w-20">What people say about us</div>
+              <div className="w-80">
+                <Avatar
+                  name="Amy Klassen"
+                  text="          Give everyone you work with—inside and outside your emoji, keep
+          conversations focused in channels, and simplify all your communication
+          into one place."
+                />
+                <Avatar
+                  name="Amy Klassen"
+                  text="          Give everyone you work with—inside and outside your emoji, keep
+          conversations focused in channels, and simplify all your communication
+          into one place."
+                />
+                <Avatar
+                  name="Amy Klassen"
+                  text="          Give everyone you work with—inside and outside your emoji, keep
+          conversations focused in channels, and simplify all your communication
+          into one place."
+                />
+              </div>
+            </div>
+          </div>
+          <div className="footer">
+            <div className="footercontainer">
+              <div className="support">
+                <div className="specialwords">team.</div>
+                <div>instagram</div>
+                <div>facebook</div>
+                <div>twitter</div>
+                <div>instagram</div>
+                <div>facebook</div>
+                <div>twitter</div>
+              </div>
+              <div className="cases">
+                <div className="specialwords">Use Cases</div>
+                <div>UI Design</div>
+                <div>UX Design</div>
+                <div>Prototyping</div>
+                <div>UI Design</div>
+                <div>UX Design</div>
+                <div>Prototyping</div>
+              </div>
+              <div className="explore">
+                <div className="specialwords">Explore</div>
+                <div>Figma</div>
+                <div>Customers</div>
+                <div>Why I Love Figma</div>
+                <div>Figma</div>
+                <div>Costumers</div>
+                <div>Why I Love Figma</div>
+              </div>
+              <div className="resources">
+                <div className="specialwords">Resources</div>
+                <div>Community Resources Hub</div>
+                <div>Support</div>
+                <div>Education</div>
+                <div>Community Resources Hub</div>
+                <div>Support</div>
+                <div>Education</div>
+              </div>
+              <div className="subscribe">
+                <div>Subscribe to our newsletter</div>
+                <div className="footerinputdiv">
+                  <input className="footerinput" placeholder="Email"></input>
+                  <button className="footerbutton">→</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
     </BrowserRouter>
   );
 }
+const Avatar = ({ name, text }) => {
+  return (
+    <div className="compile">
+      <div className="margin">
+        <div>
+          <img
+            className="stars"
+            src="https://cdn.discordapp.com/attachments/992239144698925066/1036956311264432189/unknown.png"
+          />
+          <img
+            className="stars"
+            src="https://cdn.discordapp.com/attachments/992239144698925066/1036956311264432189/unknown.png"
+          />
+          <img
+            className="stars"
+            src="https://cdn.discordapp.com/attachments/992239144698925066/1036956311264432189/unknown.png"
+          />
+          <img
+            className="stars"
+            src="https://cdn.discordapp.com/attachments/992239144698925066/1036956311264432189/unknown.png"
+          />
+          <img
+            className="stars"
+            src="https://cdn.discordapp.com/attachments/992239144698925066/1036956311264432189/unknown.png"
+          />
+        </div>
+        <div className="description">{text}</div>
+        <div className="personname">{name}</div>
+      </div>
+    </div>
+  );
+};
 
 export default App;

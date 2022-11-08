@@ -145,7 +145,7 @@ body {
 .spoky{
   width: 465px;
   height: 465px;
-  margin-left: 1600px
+  margin-left: 1200px
 }
 .empty{
   width: 2300px;
@@ -155,8 +155,130 @@ body {
 .write{
   width: 465px; 
   height: 145px;
+  margin-left: 100px;
 }
-.people{
-  display:flex;
+.ø{
+  width: 2300px;
+  height: 500px;
+  background-color:azure;
+}
+.aboutuscontainer {
+  width: 100vw;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+.w-80 {
+  padding-left: 400px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 80%;
+}
+.w-20 {
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  width: 100vw;
+  height: 20%;
+  font-size: 50px;
+  font-weight: bold;
+}
+.compile {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  width: 366px;
+  height: 374px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.stars {
+  width: 17.11px;
+  height: 16.36px;
+}
+.margin {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.personname {
+  font-family: 'Manrope', sans-serif;
+  font-size: 30px;
+}
+.footer {
+  width: 100vw;
+  background-color: #252B3B;
+  height: 500px;
+  display: flex;
+}
+.support {
+  font-family: 'Karla', sans-serif;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.cases {
+  font-family: 'Karla', sans-serif;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.explore {
+  font-family: 'Karla', sans-serif;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.resources {
+  font-family: 'Karla', sans-serif;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.footercontainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+}
+.specialwords {
+  padding-bottom: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.subscribe {
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+.footerinput {
+  border: 0px solid transparent;
+  width: 280px;
+  height: 40px;
+}
+.footerinputdiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 350px;
+  height: 50px;
+  background-color: white;
+}
+*:focus {
+  outline: none;
+}
+.footerbutton {
+  border: 1px solid transparent;
+  font-size: 25px;
+  background-color: azure;
 }
